@@ -44,10 +44,10 @@ const questions = [
     {
         question: "Đâu là một ưu điểm của mô hình OpenStack Swift?",
         answers: [
-            { text: "Đội ngũ chuyên gia hỗ trợ nhiều kinh nghiệm", correct: true },
+            { text: "Đội ngũ chuyên gia hỗ trợ nhiều kinh nghiệm", correct: false },
             { text: "Tất cả đáp án đều sai.", correct: false },
             { text: "Phân hóa nhiều mức độ.", correct: false },
-            { text: "Khả năng tương thức thông qua phần cứng", correct: false }
+            { text: "Khả năng tương thức thông qua phần cứng", correct: true }
         ]
     },
     {
@@ -80,9 +80,9 @@ const questions = [
     {
         question: "RedHat là cung cấp dịch vụ gì?",
         answers: [
-            { text: "Phần mềm.", correct: false },
+            { text: "Phần mềm.", correct: true },
             { text: "Hạ tầng.", correct: false },
-            { text: "Nền tảng.", correct: true },
+            { text: "Nền tảng.", correct: false },
             { text: "Tất cả đáp án đều đúng", correct: false }
         ]
     },
@@ -215,10 +215,10 @@ const questions = [
     {
         question: "Đâu là một lỗi hỏng của dữ liệu trong mạng ảo?",
         answers: [
-            { text: "Mất dữ liệu do sao chép", correct: true },
+            { text: "Mất dữ liệu do sao chép", correct: false },
             { text: "Phân tán dữ liệu", correct: false },
             { text: "Dữ liệu không được cập nhật", correct: false },
-            { text: "Tất cả các đáp án", correct: false }
+            { text: "Tất cả các đáp án", correct: true }
         ]
     },
     {
